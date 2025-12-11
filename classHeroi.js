@@ -1,29 +1,20 @@
-class Heroi {
-    constructor(nome, idade, tipo) {
-        this.nome = nome
-        this.idade = idade
+class heroi {
+    constructor(nome, idade, tipo){ //constructor é obrigatorio depois define os parametros
+        this.nome = nome  // o this. é como o let ou const
+        this.idade =idade
         this.tipo = tipo
+
+        this.ataques = { // aqui vai ser responsavel pela resposta no final, oque tiver antes dos : vai ser chamado nalinha final
+            mago: "magia", // tem que ser os : não = e deve terminar com ,
+            guerreiro: "espada",
+            monge: "artes maciais",
+            ninja: "shuriken"
+        }
     }
-
-    atacar() {
-        let ataque;
-
-        if (this.tipo === "guerreiro") ataque = "espada";
-        else if (this.tipo === "mago") ataque = "magia";
-        else if (this.tipo === "monge") ataque = "artes marciais";
-        else if (this.tipo === "ninja") ataque = "shuriken";
-
-        console.log(`O ${this.tipo} atacou usando ${ataque}`);
-    }
-
-    escrever() {
-        console.log(`Meu nome é ${this.nome} e eu tenho ${this.idade} anos`);
+    atacar(){ //tem que ter os () 
+        const ataque= this.ataques[this.tipo]
+        console.log(`o ${this.tipo} atacou usando ${ataque}`)
     }
 }
-
-// criando um herói
-let heroi1 = new Heroi("Rafael", 27, "guerreiro");
-
-heroi1.escrever();
-heroi1.atacar();
-
+const heroi1 = new heroi ("rafael",27, "mago")
+heroi1.atacar()
