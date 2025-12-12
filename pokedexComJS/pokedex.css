@@ -1,12 +1,19 @@
 
 
-.pokemons{
+.pokemons {
     display: grid;
     grid-template-columns: 1fr ;
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 10px;
+    
+    background-color: black; 
+    border: .2rem solid #c50d0d; /* Adiciona uma borda vermelha forte */
+    border-radius: 15px; /* Arredonda a borda externa */
+    box-shadow: 0 0 20px rgba(211, 47, 47, 0.7); /* Adiciona um brilho vermelho sutil */
+    /* FIM DAS MUDANÇAS */
 }
+
 .normal {
     background-color: #A8A77A;
 }
@@ -150,4 +157,11 @@
     .pokemons {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
+}
+
+.pokemons {
+    margin-top: 1rem;
+    font-size: .875rem;
+    color: #e1e0e7;
+    text-align: center;
 }

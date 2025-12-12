@@ -4,24 +4,30 @@
 }
 
 body {
-    background-color: #f6f8fc;
+    margin: 0;        /* Remove margens padrão do navegador */
+    padding: 0;       /* Remove preenchimentos padrão do navegador */
+    width: 100%;      /* Garante a largura total */
+    min-height: 100%; /* Garante que body e html se expandam */
+    overflow-x: hidden; /* Evita barra de rolagem horizontal indesejada */
 }
 
 .content {
-    width: 100vh;
-    height: 100vh;
-    padding: 1rem;
-    background-color: #fff;
+    width: 100vw;
+    min-height: 100vh;
+    padding: 30px;
+    background-color: #0c0c0ca6;
     
 }
 
 @media screen and (min-width: 992px){
     .content {
-        max-width: 992px;
-        height:auto;
+        max-width: 1000px;
+        min-height:auto;
         margin: 1rem auto;
         border-radius: 1rem;
+        background-color: rgb(202, 197, 197);
     }
 }
+
 
 

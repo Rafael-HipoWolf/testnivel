@@ -6,5 +6,6 @@ class Pokemon {
     this.types = [];
     this.type = null;
     this.photo = null;
+    this.description = null;
   }
 }
