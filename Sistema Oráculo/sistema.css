@@ -1,0 +1,77 @@
+body{
+    font-family: 'Roboto', sans-serif; 
+    background-color: #121212 ;   
+    border-color: #00BFFF;
+    color: #00FFFF;
+    text-align: center  ;
+    margin: 50px 20px 20px 20px ;
+    /* background-repeat: no-repeat; */
+
+    /* Faz a imagem cobrir todo o fundo, cortando o que for necessário para manter a proporção */
+    background-size: cover; 
+
+    /* Fixa a imagem no local, de modo que ela não role junto com o conteúdo */
+    background-attachment: fixed; 
+}
+
+h1{
+    text-shadow: 0 0 10px rgba(0, 191, 255, 0.8), 0 0 20px rgba(0, 191, 255, 0.4);
+    font-size: 50px ;
+    color: #00FFFF;
+    text-shadow: 0 0 10px rgba(0, 191, 255, 0.8), 0 0 20px rgba(0, 191, 255, 0.4);
+}
+.ConceitoCentral{
+    color: #00FFFF;
+    text-shadow: 0 0 10px rgba(0, 191, 255, 0.8), 0 0 20px rgba(0, 191, 255, 0.4);    
+    min-height: 10vh;
+    padding: 50px;
+    
+}
+
+.macro-areas{
+      font-size: 20px ;
+    color: #00FFFF;
+    text-shadow: 0 0 10px rgba(0, 191, 255, 0.8), 0 0 20px rgba(0, 191, 255, 0.4);
+    margin: 20px 0px 20px 0px ;
+    padding: 20px ;
+    border: 2px solid rgb(160, 40, 230);
+    border-radius: 15px ;
+    background-color: rgb(0, 0, 0, 0.5) ;
+    text-shadow: 0 0 10px rgba(0, 191, 255, 0.8), 0 0 20px rgba(0, 191, 255, 0.4);    
+    min-height: 10vh;
+    padding: 50px;
+    text-align: center  ;
+}
+
+.respostaOraculo{
+    text-shadow: 0 0 10px rgba(0, 191, 255, 0.8), 0 0 20px rgba(0, 191, 255, 0.4);    
+    font-size: 17px ;
+    color: #00FFFF;
+    text-shadow: 2px 2px 4px #000000b3  ;
+    margin: 20px 0px 20px 0px ;
+    padding: 20px ;
+    border: 2px solid rgb(126, 18, 189);
+    border-radius: 15px ;
+    background-color: rgb(0, 0, 0, 0.5) ;
+    text-align: justify ;
+    min-height: 10vh;
+    padding: 50px;
+}
+
+.promptDiario {
+    text-shadow: 0 0 10px rgba(0, 191, 255, 0.8), 0 0 20px rgba(0, 191, 255, 0.4);
+    text-align: center;
+    font-size: 17px;
+    color: #00FFFF;
+    border: 2px solid rgb(126, 18, 189);
+    text-shadow: 2px 2px 4px #000000b3  ;
+    margin: 20px 0px 20px 0px ;
+    padding: 20px ; 
+    border-radius: 20px ; /*Arrendoda as bordas */
+    background-color: rgb(0, 0, 0, 0.5) ;
+
+    /*  
+    text-align: justify ;
+    min-height: 10vh;
+    padding: 50px; */
+}
