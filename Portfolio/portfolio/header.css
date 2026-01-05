@@ -1,0 +1,25 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header .photo{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.header .title{
+    font-family: "open sans", sans-serif;
+    text-align: center;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.information p {
+    margin: .5rem;
+}
